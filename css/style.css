@@ -43,6 +43,38 @@ h1 {
   border-radius: 50%;
 }
 
+   /* small */ 
+   @media (max-width:600px) {    
+    .hi-hide-small {
+        display: none!important
+    }            
+}
+
+/* medium */ 
+@media (max-width:992px) and (min-width:601px) {
+    .hi-hide-medium {
+        display: none!important
+    }
+}              
+
+/* large */ 
+@media (min-width:993px) {            
+    .hi-hide-large {
+        display: none!important
+    }  
+    .magic {
+      z-index: 5;
+      position: absolute;
+      top: calc(50% - 10rem);
+      left: calc(50% - 10rem);
+      width: 40rem;
+      height: 40rem;
+      background: url("https://scontent.fmex2-1.fna.fbcdn.net/v/t1.6435-9/141566083_3606078192761277_7966197742148320069_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=B-0e6Hu4Q-gAX805eeI&_nc_ht=scontent.fmex2-1.fna&oh=eb8efccbdf3c4c33001e9a2292671c22&oe=61742FF3") 50% 50% no-repeat fixed;
+      background-size: cover;
+      border-radius: 50%;
+    }          
+}   
+
 .check-out {
   z-index: 100;
   position: absolute;
