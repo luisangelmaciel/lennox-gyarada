@@ -38,7 +38,7 @@ h1 {
   left: calc(50% - 10rem);
   width: 40rem;
   height: 40rem;
-  background: url("img/lennox-gyarada.jpg") 50% 50% no-repeat fixed;
+  background: url("https://luisangelmaciel.github.io/lennox-gyarada/img/lennox-gyarada.jpg") 50% 50% no-repeat fixed;
   background-size: cover;
   border-radius: 50%;
 }
